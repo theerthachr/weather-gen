@@ -1,4 +1,4 @@
-package test.cba.weather.gen.season;
+package cba.weather.gen.season;
 
 public class SeasonUtil {
 	public static Season getSeasonArea(double latitude) {

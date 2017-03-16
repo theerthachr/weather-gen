@@ -1,9 +1,9 @@
-package test.cba.weather.gen;
+package cba.weather.gen;
 
 import org.joda.time.DateTime;
 import org.joda.time.DateTimeZone;
 
-import test.cba.weather.gen.util.Util;
+import cba.weather.gen.util.Util;
 
 public class Weather {
 	enum WeatherCondition {

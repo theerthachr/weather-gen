@@ -1,4 +1,4 @@
-package test.cba.weather.gen.season;
+package cba.weather.gen.season;
 
 import java.util.ArrayList;
 import java.util.List;

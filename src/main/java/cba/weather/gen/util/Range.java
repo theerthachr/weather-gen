@@ -1,4 +1,4 @@
-package test.cba.weather.gen.util;
+package cba.weather.gen.util;
 
 public class Range {
 	private int min;

@@ -1,4 +1,4 @@
-package test.cba.weather.gen.map;
+package cba.weather.gen.map;
 
 /**
  * These classes provide a mapping of the map grid images from
@@ -20,8 +20,6 @@ public abstract class MapImagesGrid {
 	 * Checks if a particular latitude - longitude belongs to the image grid  
 	 */
 	public boolean isGrid(double latitude, double longitude) {
-		System.out.println( (latitude >= getStartLatitude()) +" " + (latitude <= getEndLatitude()) +" "+ (longitude >= getStartLongitude())
-				+" "+ (longitude <= getEndLongitude()) );
 		return (latitude >= getStartLatitude()) && (latitude <= getEndLatitude()) && (longitude >= getStartLongitude())
 				&& (longitude <= getEndLongitude());
 	}

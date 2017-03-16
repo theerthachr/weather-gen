@@ -1,6 +1,6 @@
-package test.cba.weather.gen;
+package cba.weather.gen;
 
-import test.cba.weather.gen.util.Range;
+import cba.weather.gen.util.Range;
 
 public class Constants {
 	public static final int MAX_ELEVATION_IN_FT = 29035; // Height of Mount everest in feet
@@ -18,5 +18,5 @@ public class Constants {
 	public static final double TEMP_DEC_FACTOR_LATITUDE_WINTER = 1.2;
 	
 	public static final double ELEVATION_PER_COLOR_INTESITY = 29035.0 / 255.0; // Highest level above sea level divided by the total number of color intensity in color channel 
-	public static final double TEMP_DEC_PER_1000_FOOT = 3.0;
+	public static final double TEMP_DEC_PER_1000_FEET = 3.0;
 }
